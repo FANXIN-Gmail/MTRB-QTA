@@ -21,7 +21,7 @@ Main results of MTRB benchmark, with the best score bolded and the second best s
 
 ![Logo](./Images/Results.jpg)
 
-As shown in Table 2, we compare various methods on MTRB bench- mark across three sub-task: MTRB-RestBench, MTRB-ToolBench, and MTRB-MetaTool. In summary, the proposed QTA framework achieves either the best or the second-best results across all metrics.
+We compare various methods on MTRB bench- mark across three sub-task: MTRB-RestBench, MTRB-ToolBench, and MTRB-MetaTool. In summary, the proposed QTA framework achieves either the best or the second-best results across all metrics.
 
 ## Visualization 
 
