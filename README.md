@@ -4,7 +4,7 @@ Data-Efficient Massive Tool Retrieval: A Reinforcement Learning Approach for Que
 
 ## Overview
 
-![Logo](./Images/background.jpg)
+![Logo](./Images/Background.jpg)
 
 YYY
 
