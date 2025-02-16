@@ -29,7 +29,7 @@ An overview of the proposed QTA framework, which includes data pipelines for the
 
 Main results of MTRB benchmark, with the best score bolded and the second best scores underlined. The results are shown in percentages.
 
-![Logo](./Images/Results.jpg)
+![Logo](./Images/Result.jpg)
 
 We compare various methods on MTRB bench- mark across three sub-task: MTRB-RestBench, MTRB-ToolBench, and MTRB-MetaTool. In summary, the proposed QTA framework achieves either the best or the second-best results across all metrics.
 
