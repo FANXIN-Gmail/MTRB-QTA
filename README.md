@@ -13,6 +13,12 @@ benchmark is designed for low-resource scenarios and includes a diverse collecti
 
 The current approach to solving tool-based problems involves first addressing the (a) massive tool retrieval (MTR) task, followed by completing the (b) tool selection task. We focus on providing a solution for the MTR task. For evaluation, we introduce a new MTRB benchmark. Method-ologically, we propose a new QTA framework to enhance the retrieval systems by aligning user queries with tools.
 
+## Statistics
+
+![Logo](./Images/Statistics.jpg)
+
+General statistics of MTRB benchmark. Tool Doc. Lengths represent the length range of tool descriptions. The Golden Tools column indicates the number of essential tools selected as ground truth for each sub-task.
+
 ## Overview
 
 ![Logo](./Images/QTA.jpg)
@@ -34,6 +40,3 @@ Visualization results: user query before and after rewriting in MTRB-RestBench d
 ![Logo](./Images/Visualization.jpg)
 
 As shown in Table 3, we present the before and after versions of three sets of user queries, detailing the changes in the 𝑆@5 and 𝑁@5 metrics. In summary, the QTA frame-work generates high-quality queries, resulting in improvement overretrieval models.
-
-
-
