@@ -39,4 +39,4 @@ Visualization results: user query before and after rewriting in MTRB-RestBench d
 
 ![Logo](./Images/Visualization.jpg)
 
-As shown in Table 3, we present the before and after versions of three sets of user queries, detailing the changes in the 𝑆@5 and 𝑁@5 metrics. In summary, the QTA frame-work generates high-quality queries, resulting in improvement overretrieval models.
+We present the before and after versions of three sets of user queries, detailing the changes in the 𝑆@5 and 𝑁@5 metrics. In summary, the QTA frame-work generates high-quality queries, resulting in improvement overretrieval models.
