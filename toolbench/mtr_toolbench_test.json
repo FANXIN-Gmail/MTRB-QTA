@@ -1,0 +1,1058 @@
+[
+    {
+        "query": "I'm planning a movie marathon with my friends. Find me a series of movies from a specific genre and check their streaming availability on Netflix, Hulu, and Prime Video. Also, provide information about the cast and crew of each movie.",
+        "relevant Tools": [
+            "OTT details",
+            "Streaming Availability",
+            "Watchmode"
+        ],
+        "relevant IDs": [
+            956,
+            2359,
+            171
+        ]
+    },
+    {
+        "query": "I'm organizing a movie-themed event for my company and I need some information about the cast member with the peopleid 'nm0000375'. Can you fetch the name, profession, birth year, and best titles associated with this cast member? Also, provide the streaming sources available in the US and Canada for these titles.",
+        "relevant Tools": [
+            "OTT details",
+            "Watchmode"
+        ],
+        "relevant IDs": [
+            956,
+            171
+        ]
+    },
+    {
+        "query": "I'm hosting a company movie night and we want to watch a sci-fi movie. Can you suggest a popular sci-fi movie available for streaming in the US? Also, provide the streaming sources for the movie 'Inception'.",
+        "relevant Tools": [
+            "Streaming Availability",
+            "OTT details",
+            "Watchmode"
+        ],
+        "relevant IDs": [
+            2359,
+            956,
+            171
+        ]
+    },
+    {
+        "query": "I'm planning a surprise graduation party for my sister. Can you generate a short URL for the party invitation? Also, suggest some fun and unique slashtags for the event. Furthermore, provide me with a list of available domains to choose from for the short URL.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm interested in exploring the world of filmmaking. Can you recommend some channels on Vimeo that focus on different categories? It would be great if you could provide the full video information and the related people in the industry. Also, is it possible to download or stream these videos using a specific tool? Thank you!",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I'm hosting a virtual movie night with my friends and I need some suggestions. Can you search for videos related to 'action' on Vimeo? Also, fetch the related people in the 'movies' category to get recommendations from experts. Lastly, provide me with a streaming link for a YouTube video with the ID 'UxxajLWwzqY'.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I'm planning a road trip with my friends and we want to share the itinerary details. Can you help us create a short URL for the trip plan? Also, suggest some domain options for the trip link. Furthermore, provide me with a list of available domains for branding the short link.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm organizing a movie trivia night for my friends and I need some interesting movie facts. Can you provide me with random facts about movies and actors? Also, suggest some popular movies from the 90s that are available for streaming on Netflix and Prime Video.",
+        "relevant Tools": [
+            "Watchmode",
+            "OTT details",
+            "Streaming Availability"
+        ],
+        "relevant IDs": [
+            171,
+            956,
+            2359
+        ]
+    },
+    {
+        "query": "I'm a film critic and I need to gather information about the latest releases. Can you provide me with the list of recently released movies and TV shows available on streaming platforms in the US? Additionally, give me the streaming availability details for the show 'Breaking Bad' and the basic information about the cast, including their names and professions.",
+        "relevant Tools": [
+            "Watchmode",
+            "OTT details",
+            "Streaming Availability"
+        ],
+        "relevant IDs": [
+            171,
+            956,
+            2359
+        ]
+    },
+    {
+        "query": "I'm a filmmaker and I'm looking for inspiration for my next project. Can you recommend some popular videos from Vimeo that have won awards or received critical acclaim? Once I find the videos, I would like to download them for reference. Please provide me with the download links for these videos. Thank you!",
+        "relevant Tools": [
+            "YTStream - Download YouTube Videos",
+            "Vimeo"
+        ],
+        "relevant IDs": [
+            703,
+            574
+        ]
+    },
+    {
+        "query": "I'm planning a movie night with my friends this weekend. Can you recommend some new titles that have been added to streaming platforms recently? Also, provide me with the basic details and streaming availability of the movie with IMDb ID tt9904802.",
+        "relevant Tools": [
+            "Watchmode",
+            "OTT details",
+            "Streaming Availability"
+        ],
+        "relevant IDs": [
+            171,
+            956,
+            2359
+        ]
+    },
+    {
+        "query": "I'm planning a surprise party for my best friend's birthday. Can you help me create a short URL for the party invitation and find a suitable domain for it? Also, provide me with a list of available domains to choose from.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm a small business owner and I want to enhance my online presence. Can you provide me with a list of available domains from the URL Link Shortener tool? I also need help creating short, catchy URLs for my website using the bitly tool.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm organizing a film festival and I need assistance in finding the best films. Can you search for videos related to 'documentary' on Vimeo? Additionally, fetch the related people in the 'cinema' category to invite them as guest speakers. Finally, provide me with a streaming link for a YouTube video with the ID 'UxxajLWwzqY'.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I want to watch a documentary about nature. Can you suggest a popular nature documentary available for streaming in the US? Also, provide the streaming sources for the documentary 'Planet Earth'.",
+        "relevant Tools": [
+            "Streaming Availability",
+            "OTT details",
+            "Watchmode"
+        ],
+        "relevant IDs": [
+            2359,
+            956,
+            171
+        ]
+    },
+    {
+        "query": "I'm a social media influencer and I want to track the engagement of my posts. Can you help me create short URLs for each post using the bitly tool? I also need to create branded short links for my website using the URL Link Shortener tool.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm organizing a movie night for my company's team-building event. Can you suggest some motivational movies with positive messages? Also, provide the streaming platforms where these movies are available in the US.",
+        "relevant Tools": [
+            "Streaming Availability",
+            "Watchmode",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            2359,
+            171,
+            956
+        ]
+    },
+    {
+        "query": "My family and I are planning a movie marathon and we need some movie recommendations. Could you search for movies based on the genre 'action' and language 'Spanish'? Also, provide us with the streaming sources available in the US and Canada where we can watch these movies.",
+        "relevant Tools": [
+            "OTT details",
+            "Watchmode"
+        ],
+        "relevant IDs": [
+            956,
+            171
+        ]
+    },
+    {
+        "query": "I'm planning a hiking trip with my friends and we want to listen to some inspiring podcasts during the journey. Can you recommend some motivational podcasts and provide the streaming availability on platforms like Spotify and Apple Podcasts? Also, suggest some healthy snacks for the hike.",
+        "relevant Tools": [
+            "Watchmode",
+            "Streaming Availability",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            171,
+            2359,
+            956
+        ]
+    },
+    {
+        "query": "I'm a developer and I'm working on a project that requires URL shortening functionality. Can you provide me with a list of available domains from the URL Link Shortener tool? I also need help creating short URLs for my project using the bitly tool.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm a movie enthusiast and I'm interested in watching critically acclaimed films. Can you suggest some award-winning movies with high IMDb ratings? Also, provide the streaming platforms where these movies are available in the US.",
+        "relevant Tools": [
+            "Streaming Availability",
+            "Watchmode",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            2359,
+            171,
+            956
+        ]
+    },
+    {
+        "query": "I'm a filmmaker working on a documentary and I need some information. Get me the category info for 'documentaries', the channel info for 'National Geographic', and the comments for the video with ID '345678'. Also, find a website where I can stream or download a documentary with the ID 'UxxajLWwzqY'.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I'm a film student and I'm looking for unique and experimental videos to study for my thesis. Can you recommend some avant-garde videos from Vimeo that push the boundaries of traditional filmmaking? Once I find the videos, I would like to download them for analysis. Please provide me with the download links for these videos. Thank you!",
+        "relevant Tools": [
+            "YTStream - Download YouTube Videos",
+            "Vimeo"
+        ],
+        "relevant IDs": [
+            703,
+            574
+        ]
+    },
+    {
+        "query": "I'm organizing a movie marathon for my family and I need a list of family-friendly movies available on streaming platforms in the US. Can you provide me with the streaming sources for the movie 'Toy Story' and the basic information about the cast, including their names and professions? Also, give me the latest arrivals on different platforms in the US.",
+        "relevant Tools": [
+            "Watchmode",
+            "OTT details",
+            "Streaming Availability"
+        ],
+        "relevant IDs": [
+            171,
+            956,
+            2359
+        ]
+    },
+    {
+        "query": "I'm planning a road trip with my family and we want to listen to some great music along the way. Can you recommend some popular songs and provide the streaming availability on platforms like Spotify and Apple Music? Also, suggest some snacks for the road trip.",
+        "relevant Tools": [
+            "Watchmode",
+            "Streaming Availability",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            171,
+            2359,
+            956
+        ]
+    },
+    {
+        "query": "I'm organizing a movie night for my company's employees and I need some suggestions for inspirational movies. Can you recommend some popular inspirational movies that are available for streaming in the US? Also, provide me with the streaming sources where I can watch these movies.",
+        "relevant Tools": [
+            "Watchmode",
+            "Streaming Availability",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            171,
+            2359,
+            956
+        ]
+    },
+    {
+        "query": "I'm hosting a movie-themed party for my friends and I need some ideas for classic movies to watch. Can you recommend some popular classic movies that are available for streaming in the US? Also, provide me with the streaming sources where I can watch these movies.",
+        "relevant Tools": [
+            "Watchmode",
+            "Streaming Availability",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            171,
+            2359,
+            956
+        ]
+    },
+    {
+        "query": "I'm planning a virtual art exhibition and I need some videos to showcase the artists' works. Can you help me search for videos on Vimeo that feature different art forms like painting, sculpture, and photography? Once I find the videos, I would like to download them for offline viewing. Please provide me with the download links for these videos. Thank you!",
+        "relevant Tools": [
+            "YTStream - Download YouTube Videos",
+            "Vimeo"
+        ],
+        "relevant IDs": [
+            703,
+            574
+        ]
+    },
+    {
+        "query": "I want to share a news article with my colleagues. Can you help me create a short URL for the article? Also, suggest some catchy slashtags for the news. Furthermore, provide me with a list of available domains to choose from for the short URL.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm planning a road trip with my family and I want to share our itinerary with friends. Can you generate short URLs for each destination using the bitly tool? Additionally, I need a list of available domains from the URL Link Shortener tool to choose the perfect domain for the trip.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I want to create a playlist of my favorite music videos from YouTube. Get the related tags for the 'Music' category from Vimeo to enhance the playlist. Also, provide me with information about the 'Music' category from Vimeo.",
+        "relevant Tools": [
+            "YTStream - Download YouTube Videos",
+            "Vimeo"
+        ],
+        "relevant IDs": [
+            703,
+            574
+        ]
+    },
+    {
+        "query": "I'm a screenwriter looking for inspiration for my next project. Can you help me find a list of critically acclaimed movies available on streaming platforms in the US? Also, provide me with the streaming sources for the movie 'Citizen Kane' and the basic information about the cast, including their names and professions.",
+        "relevant Tools": [
+            "Watchmode",
+            "OTT details",
+            "Streaming Availability"
+        ],
+        "relevant IDs": [
+            171,
+            956,
+            2359
+        ]
+    },
+    {
+        "query": "I'm organizing a movie marathon for my company's team-building event. Could you suggest some action movies from the 90s that are available for streaming on Netflix, Prime Video, and Hulu? Please include the IMDb ratings and streaming links for each movie.",
+        "relevant Tools": [
+            "Watchmode",
+            "OTT details",
+            "Streaming Availability"
+        ],
+        "relevant IDs": [
+            171,
+            956,
+            2359
+        ]
+    },
+    {
+        "query": "I'm curious about a famous actor's career. Can you provide details about their filmography, including their best-known titles and streaming availability on Netflix, Hulu, and Prime Video? Also, share some interesting facts about the actor.",
+        "relevant Tools": [
+            "OTT details",
+            "Streaming Availability",
+            "Watchmode"
+        ],
+        "relevant IDs": [
+            956,
+            2359,
+            171
+        ]
+    },
+    {
+        "query": "I'm planning a surprise baby shower for my best friend. Can you generate a short URL for the baby shower invitation? Also, suggest some adorable and creative slashtags for the event. Furthermore, provide me with a list of available domains to choose from for the short URL.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "My company is organizing a virtual conference and we would like to feature some videos from Vimeo. Can you help us find videos related to a specific category? It would be great if you could provide the full video information and the related people in the industry. Also, is it possible to download or stream these videos using a specific tool? Thank you!",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I want to explore different genres of movies and series available on streaming platforms. Can you provide me with the basic details and streaming availability of a movie or series with the keyword 'zombie' and released between the years 2000 and 2025? Also, fetch the details of the actors and crew associated with the title with Watchmode ID 3173903.",
+        "relevant Tools": [
+            "Watchmode",
+            "OTT details",
+            "Streaming Availability"
+        ],
+        "relevant IDs": [
+            171,
+            956,
+            2359
+        ]
+    },
+    {
+        "query": "I'm organizing a charity event and I need to promote it on social media. Can you generate short URLs for the event details using the bitly tool? Additionally, I want to create branded short links for the event website using the URL Link Shortener tool.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm organizing a workshop and need to send out the event details. Can you help me create a short URL for the event using the bitly API? Additionally, suggest a domain that reflects the purpose of the workshop.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm organizing a virtual conference and I need to find some high-quality videos to include in the presentations. Can you help me search for relevant videos on Vimeo? Once I find the videos, I would like to download them for offline viewing. Please provide me with the download links for these videos. Thank you!",
+        "relevant Tools": [
+            "YTStream - Download YouTube Videos",
+            "Vimeo"
+        ],
+        "relevant IDs": [
+            703,
+            574
+        ]
+    },
+    {
+        "query": "I want to share a blog post with my followers on social media. Can you generate a shortened URL for the post using the bitly API? Additionally, find an appropriate domain for the link.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm planning a surprise anniversary party for my parents. Can you generate a shortened URL for the party invitation using the bitly API? Additionally, find a domain that represents love and celebration.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm planning a vacation with my family and we want to watch some movies during the trip. Can you recommend some family-friendly movies and provide the streaming availability on platforms like Disney+ and Netflix? Also, suggest some snacks that go well with movie nights.",
+        "relevant Tools": [
+            "Watchmode",
+            "Streaming Availability",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            171,
+            2359,
+            956
+        ]
+    },
+    {
+        "query": "I'm organizing a charity event and I want to create a promotional video to raise awareness. Can you assist me in finding videos from Vimeo that highlight successful charity campaigns? Once I find the videos, I would like to download them for reference. Please provide me with the download links for these videos. Your help is greatly appreciated!",
+        "relevant Tools": [
+            "YTStream - Download YouTube Videos",
+            "Vimeo"
+        ],
+        "relevant IDs": [
+            703,
+            574
+        ]
+    },
+    {
+        "query": "I want to plan a movie night with my friends. Can you suggest some popular movies from the 'action' category on Vimeo? Also, provide me with the download/stream information for one of the movies.",
+        "relevant Tools": [
+            "YTStream - Download YouTube Videos",
+            "Vimeo"
+        ],
+        "relevant IDs": [
+            703,
+            574
+        ]
+    },
+    {
+        "query": "I'm a history buff and I'm interested in watching historical films. Can you recommend some acclaimed historical movies available on streaming platforms in the US? Also, provide the runtime and IMDb ratings for these movies.",
+        "relevant Tools": [
+            "Streaming Availability",
+            "Watchmode",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            2359,
+            171,
+            956
+        ]
+    },
+    {
+        "query": "I'm a music producer and I'm looking for music videos to get inspiration for my next project. Can you help me find videos from the 'Music' category on Vimeo? Additionally, provide me with information on how to download and stream these videos using the YTStream - Download YouTube Videos tool.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I'm organizing a movie trivia night for my family. Can you give me the genre names and IDs for movies? Also, provide me with the basic information about a specific cast member, including their name, profession, birth and death years, and best titles.",
+        "relevant Tools": [
+            "Streaming Availability",
+            "Watchmode",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            2359,
+            171,
+            956
+        ]
+    },
+    {
+        "query": "I need to share a long URL with my colleagues. Can you generate a shortened URL for me using the bitly API? Additionally, find a domain that best represents our company and create a new link with that domain.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm organizing a meetup for a group of entrepreneurs. Can you help me create a short URL for the meetup details using the bitly API? Also, suggest a domain that resonates with the entrepreneurial spirit.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm a film critic and I need to gather information about a specific movie. Can you provide me with the basic details and streaming availability of the movie with IMDb ID tt1877830? Additionally, fetch the details of the actors and crew associated with the movie.",
+        "relevant Tools": [
+            "Watchmode",
+            "OTT details",
+            "Streaming Availability"
+        ],
+        "relevant IDs": [
+            171,
+            956,
+            2359
+        ]
+    },
+    {
+        "query": "I'm a film student and I'm working on a documentary about climate change. Can you assist me in finding videos related to 'Climate Change' on Vimeo? Additionally, provide me with information on how to download and stream these videos using the YTStream - Download YouTube Videos tool.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I'm planning a vacation with my family and want to share the itinerary with them. Can you generate a shortened URL for the itinerary using the bitly API? Also, find a domain that suits our travel theme.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm planning a travel vlog and I need some stunning videos to include in my videos. Can you help me search for travel videos on Vimeo? Once I find the videos, I would like to download them for editing. Please provide me with the download links for these videos. Thank you!",
+        "relevant Tools": [
+            "YTStream - Download YouTube Videos",
+            "Vimeo"
+        ],
+        "relevant IDs": [
+            703,
+            574
+        ]
+    },
+    {
+        "query": "I'm a film student and I'm looking for some educational resources. Can you recommend some channels on Vimeo that provide tutorials and insights into different categories of filmmaking? It would be great if you could provide the full video information and the related people in the industry. Also, is it possible to download or stream these videos using a specific tool? Thank you!",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I'm planning a movie night with my family and we want to watch some horror movies. Can you search for movies based on the genre 'horror' and language 'English'? Also, provide the streaming sources available in the US and Canada where we can watch these movies.",
+        "relevant Tools": [
+            "OTT details",
+            "Watchmode"
+        ],
+        "relevant IDs": [
+            956,
+            171
+        ]
+    },
+    {
+        "query": "I want to watch a romantic comedy movie with my partner. Can you recommend some popular romantic comedy films available on streaming platforms in the US? Also, provide the runtime and IMDb ratings for these movies.",
+        "relevant Tools": [
+            "Streaming Availability",
+            "Watchmode",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            2359,
+            171,
+            956
+        ]
+    },
+    {
+        "query": "I'm a film enthusiast and I want to explore movies from different regions. Can you recommend some movies from India and the United States? Additionally, I would like to search for movies and TV shows related to 'The Godfather' using the 'search' endpoint.",
+        "relevant Tools": [
+            "Watchmode",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            171,
+            956
+        ]
+    },
+    {
+        "query": "I'm organizing a team building activity for my company. Can you help me create a short URL for the event details? Also, suggest some domain options for the team building link. Furthermore, provide me with a list of available domains for branding the short link.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm hosting a virtual book club and I need some recommendations. Provide me with the category info for 'books', the channel info for 'Book Riot', and the comments for the video with ID '234567'. Also, find a website where I can stream or download the audiobook with the ID 'UxxajLWwzqY'.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I'm planning a romantic date night with my partner and I want to watch some romantic videos. Can you suggest some videos from the 'Romance' category on Vimeo? Also, provide me with information on how to download and stream these videos using the YTStream - Download YouTube Videos tool.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I'm a fitness enthusiast and I'm looking for workout videos to follow at home. Can you help me find videos from the 'Fitness' category on Vimeo? Additionally, provide me with information on how to download and stream these videos using the YTStream - Download YouTube Videos tool.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I want to explore different genres of movies. Fetch the genre names and IDs for me. Also, provide me with the basic information about a specific cast member, including their name, profession, birth and death years, and best titles.",
+        "relevant Tools": [
+            "Streaming Availability",
+            "Watchmode",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            2359,
+            171,
+            956
+        ]
+    },
+    {
+        "query": "I'm a movie enthusiast and I want to explore different genres. Can you help me find a list of titles in the horror and comedy genres available on streaming platforms in the US? Also, provide me with the streaming sources for the movie 'Get Out' and the basic information about the cast, including their names and professions.",
+        "relevant Tools": [
+            "Watchmode",
+            "OTT details",
+            "Streaming Availability"
+        ],
+        "relevant IDs": [
+            171,
+            956,
+            2359
+        ]
+    },
+    {
+        "query": "My company is launching a new product and we need to create custom short links for our marketing materials. Can you assist us in generating short links for our product pages and provide us with a list of available domains for branding? Additionally, we would like to gather some data on the click-through rates of different URL shorteners.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I want to create a playlist for my workout sessions. Get me the category info for 'music', the channel info for 'Spotify', and the comments for the video with ID '012345'. Also, find a website where I can stream or download a workout music mix with the ID 'UxxajLWwzqY'.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I'm planning a movie night with my friends and we want to watch a horror film. Can you recommend some popular horror movies available on streaming platforms in the US? Also, provide the runtime and IMDb ratings for these movies.",
+        "relevant Tools": [
+            "Streaming Availability",
+            "Watchmode",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            2359,
+            171,
+            956
+        ]
+    },
+    {
+        "query": "I'm planning a surprise anniversary party for my parents. Can you help me create a short URL for the party invitation? Also, suggest some unique and memorable slashtags for the event. Furthermore, provide me with a list of available domains to choose from for the short URL.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I want to watch a classic movie with my family. Can you suggest a popular classic movie available for streaming in the US? Also, provide the streaming sources for the movie 'Casablanca'.",
+        "relevant Tools": [
+            "Streaming Availability",
+            "OTT details",
+            "Watchmode"
+        ],
+        "relevant IDs": [
+            2359,
+            956,
+            171
+        ]
+    },
+    {
+        "query": "I'm trying to find a new series to watch. Can you recommend some popular TV shows that are currently streaming on platforms like Netflix, Prime Video, and Hulu? Additionally, provide me with the seasons of the TV show 'Friends'.",
+        "relevant Tools": [
+            "OTT details",
+            "Streaming Availability",
+            "Watchmode"
+        ],
+        "relevant IDs": [
+            956,
+            2359,
+            171
+        ]
+    },
+    {
+        "query": "I'm planning a movie night with my friends this weekend. Can you suggest some popular movies released in the last year? Also, provide the streaming availability for these movies on different platforms like Netflix, Prime Video, and Hulu.",
+        "relevant Tools": [
+            "Watchmode",
+            "Streaming Availability",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            171,
+            2359,
+            956
+        ]
+    },
+    {
+        "query": "I need to find a new TV show to watch with my family. Can you suggest a family-friendly series with a high IMDb rating and check its streaming availability on Netflix, Disney+, and Apple TV? Additionally, provide information about the show's cast and crew.",
+        "relevant Tools": [
+            "OTT details",
+            "Streaming Availability",
+            "Watchmode"
+        ],
+        "relevant IDs": [
+            956,
+            2359,
+            171
+        ]
+    },
+    {
+        "query": "I'm a student working on a research project about contemporary art. Can you help me find channels on Vimeo that feature interviews with renowned artists and showcase their artworks? Additionally, I would like to download and stream a specific video about a famous painting.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I'm planning a family movie marathon and I need a variety of films. Can you search for videos related to 'animation' on Vimeo? Also, fetch the related people in the 'animation' category to get insights from professionals. Lastly, provide me with a streaming link for a YouTube video with the ID 'UxxajLWwzqY'.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I want to learn more about wildlife photography. Provide me with the category info for 'photography', the channel info for 'National Geographic', and the comments for the video with ID '901234'. Also, find a website where I can stream or download a tutorial video on wildlife photography with the ID 'UxxajLWwzqY'.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I want to plan a surprise party for my best friend's birthday. Can you help me create a short URL for the party invitation? Also, suggest some unique and catchy slashtags for the party event. Furthermore, provide me with a list of available domains to choose from for the short URL.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm planning a movie night with my friends and we want to watch a comedy film. Can you recommend some popular comedy movies available on streaming platforms in the US? Also, provide the runtime and IMDb ratings for these movies.",
+        "relevant Tools": [
+            "Streaming Availability",
+            "Watchmode",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            2359,
+            171,
+            956
+        ]
+    },
+    {
+        "query": "I'm planning a movie-themed birthday party for my niece and I need some suggestions for movies suitable for kids. Can you search for movies based on the genre 'animation' and language 'English'? Also, provide the streaming sources available in the US and Canada where we can watch these movies.",
+        "relevant Tools": [
+            "OTT details",
+            "Watchmode"
+        ],
+        "relevant IDs": [
+            956,
+            171
+        ]
+    },
+    {
+        "query": "I'm planning a movie night with my family and we want to watch some animated movies. Can you recommend some animated movies suitable for kids and adults that are available for streaming on Netflix and Prime Video? Please provide the IMDb ratings and streaming links for each movie.",
+        "relevant Tools": [
+            "Watchmode",
+            "OTT details",
+            "Streaming Availability"
+        ],
+        "relevant IDs": [
+            171,
+            956,
+            2359
+        ]
+    },
+    {
+        "query": "I need information about a specific person. Can you provide me with details on the actor with the ID '7110004'? I want to know their full name, date of birth, place of birth, and main profession. Additionally, fetch the basic information about the cast member with the ID 'nm0000375' to learn more about their profession and known titles.",
+        "relevant Tools": [
+            "Watchmode",
+            "Streaming Availability",
+            "OTT details"
+        ],
+        "relevant IDs": [
+            171,
+            2359,
+            956
+        ]
+    },
+    {
+        "query": "I want to explore the world of independent cinema. Can you give me a list of independent movies available on streaming platforms in the US? Additionally, provide me with the streaming availability details for the movie 'Moonlight' and the basic information about the cast, including their names and professions.",
+        "relevant Tools": [
+            "Watchmode",
+            "OTT details",
+            "Streaming Availability"
+        ],
+        "relevant IDs": [
+            171,
+            956,
+            2359
+        ]
+    },
+    {
+        "query": "I want to share an interesting article with my friends on social media, but the URL is too long. Can you help me shorten the URL using the bitly API? The long URL is 'https://example.com/article/12345'. Additionally, I would like to create a new link using the URL Link Shortener API with the destination set to 'https://example.com/article/12345'.",
+        "relevant Tools": [
+            "URL Link Shortener",
+            "bitly"
+        ],
+        "relevant IDs": [
+            2184,
+            810
+        ]
+    },
+    {
+        "query": "I'm a filmmaker looking for inspiration. Can you recommend some award-winning short films from Vimeo? Also, provide me with the download/stream information for one of the films.",
+        "relevant Tools": [
+            "YTStream - Download YouTube Videos",
+            "Vimeo"
+        ],
+        "relevant IDs": [
+            703,
+            574
+        ]
+    },
+    {
+        "query": "I'm a film enthusiast and I want to explore new genres. Can you search for videos related to 'horror' on Vimeo? Additionally, fetch the related people in the 'entertainment' category to discover new talents. Finally, provide me with a streaming link for a YouTube video with the ID 'UxxajLWwzqY'.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I'm planning a surprise birthday party for my sister and I want to create a slideshow with her childhood photos. Can you suggest some videos from the 'Family' category on Vimeo? Also, provide me with information on how to download and stream these videos using the YTStream - Download YouTube Videos tool.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I'm a travel blogger and I want to share my latest blog post on social media. Can you help me create short URLs for the blog post using the bitly tool? I also need to create branded short links for my website using the URL Link Shortener tool.",
+        "relevant Tools": [
+            "bitly",
+            "URL Link Shortener"
+        ],
+        "relevant IDs": [
+            810,
+            2184
+        ]
+    },
+    {
+        "query": "I'm trying to find a specific movie or TV show, but I can't remember the exact title. Can you help me search for it based on a keyword? Also, provide me with the list of titles that match my search criteria.",
+        "relevant Tools": [
+            "OTT details",
+            "Watchmode"
+        ],
+        "relevant IDs": [
+            956,
+            171
+        ]
+    },
+    {
+        "query": "I want to explore new movies and TV series added to Watchmode recently. Can you provide me with a list of new titles added between June 1, 2022, and June 30, 2022? Additionally, fetch the basic information about the cast member with the peopleid 'nm0000375'.",
+        "relevant Tools": [
+            "OTT details",
+            "Watchmode"
+        ],
+        "relevant IDs": [
+            956,
+            171
+        ]
+    },
+    {
+        "query": "I'm planning a road trip with my family and we want to document our journey. Can you suggest some popular videos from the 'Travel' category on Vimeo? Also, provide us with information on how to download and stream these videos using the YTStream - Download YouTube Videos tool.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    },
+    {
+        "query": "I'm organizing a film festival and I'm looking for award-winning films. Can you search for videos related to 'award-winning' on Vimeo? Additionally, fetch the related people in the 'film festival' category to invite them as judges. Finally, provide me with a streaming link for a YouTube video with the ID 'UxxajLWwzqY'.",
+        "relevant Tools": [
+            "Vimeo",
+            "YTStream - Download YouTube Videos"
+        ],
+        "relevant IDs": [
+            574,
+            703
+        ]
+    }
+]
