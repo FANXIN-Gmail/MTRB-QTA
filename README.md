@@ -1,6 +1,7 @@
-<img width="1370" alt="image" src="https://github.com/user-attachments/assets/0e9573f6-0fbf-4bcb-92f3-37e648d22a08" /># MTRB-QTA
+# MTRB-QTA
 
-Data-Efficient Massive Tool Retrieval: A Reinforcement Learning Approach for Query-Tool Alignment with Language Models
+Data-Efficient Massive Tool Retrieval: A Reinforcement Learning Approach for Query-Tool Alignment with Language Models.
+
 
 ## Background
 
