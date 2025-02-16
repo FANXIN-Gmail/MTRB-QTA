@@ -1,0 +1,812 @@
+[
+    {
+        "ID": 1,
+        "tool_name": "/movie/{movie_id}/keywords",
+        "tool_description": "Get the keywords that have been added to a movie. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "tool_usage": "GET /movie/{movie_id}/keywords",
+        "Example": {
+            "Scenario": "if you want to find out the keywords that have been added to a movie with movie_id 456.",
+            "Parameters": {
+                "input": "GET /movie/456/keywords"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve keywords assigned to a specific movie. Requires a valid movie ID. Use this tool after using the \"/search/movie\" endpoint.",
+        "rewrite_description_length": 27
+    },
+    {
+        "ID": 2,
+        "tool_name": "/tv/popular",
+        "tool_description": "Get a list of the current popular TV shows on TMDb.",
+        "tool_usage": "GET /tv/popular",
+        "Example": {
+            "Scenario": "if you want to get a list of the current popular TV shows on TMDb.",
+            "Parameters": {
+                "input": "GET /tv/popular"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve a list of the most popular TV shows currently trending on TMDb (The Movie Database).",
+        "rewrite_description_length": 21
+    },
+    {
+        "ID": 3,
+        "tool_name": "/person/{person_id}",
+        "tool_description": "Get the primary person details by id. You should first know the person_id and thus this tool should be used after /search/person.",
+        "tool_usage": "GET /person/{person_id}",
+        "Example": {
+            "Scenario": "if you want to know the primary details of person with person_id 456.",
+            "Parameters": {
+                "input": "GET /person/456"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get the primary person details by id. You should first know the person_id and thus this tool should be used after /search/person.",
+        "rewrite_description_length": 28
+    },
+    {
+        "ID": 4,
+        "tool_name": "/movie/{movie_id}/reviews",
+        "tool_description": "Get the user reviews for a movie. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "tool_usage": "GET /movie/{movie_id}/reviews",
+        "Example": {
+            "Scenario": "If you want to read the user reviews for a movie with movie_id 456.",
+            "Parameters": {
+                "input": "GET /movie/456/reviews"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get the user reviews for a movie. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "rewrite_description_length": 28
+    },
+    {
+        "ID": 5,
+        "tool_name": "/movie/{movie_id}/release_dates",
+        "tool_description": "Get the release date along with the certification for a movie. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "tool_usage": "GET /movie/{movie_id}/release_dates",
+        "Example": {
+            "Scenario": "if you want to know the release dates and certification of the movie with movie_id 123.",
+            "Parameters": {
+                "input": "GET /movie/123/release_dates"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve release dates and certification details for a specific movie. Movie's ID is required, obtainable through the /search/movie endpoint.",
+        "rewrite_description_length": 27
+    },
+    {
+        "ID": 6,
+        "tool_name": "/tv/{tv_id}/season/{season_number}/episode/{episode_number}/credits",
+        "tool_description": "Get the credits (cast, crew and guest stars) for a TV episode. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "tool_usage": "GET /tv/{tv_id}/season/{season_number}/episode/{episode_number}/credits",
+        "Example": {
+            "Scenario": "If you want to get the credits of a TV episode with tv_id 456, season_number 2, and episode_number 3.",
+            "Parameters": {
+                "input": "GET /tv/456/season/2/episode/3/credits"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Get TV episode credits (cast, crew, guests) by TV ID. Requires prior TV show search using the \"/search/tv\" tool.",
+        "rewrite_description_length": 30
+    },
+    {
+        "ID": 7,
+        "tool_name": "/movie/{movie_id}/images",
+        "tool_description": "Get the images that belong to a movie. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "tool_usage": "GET /movie/{movie_id}/images",
+        "Example": {
+            "Scenario": "if you want to get the images of a movie with movie_id 456.",
+            "Parameters": {
+                "input": "GET /movie/456/images"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get the images that belong to a movie. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "rewrite_description_length": 29
+    },
+    {
+        "ID": 8,
+        "tool_name": "/search/tv",
+        "tool_description": "Search for a TV show, which can obtain tv_id.",
+        "tool_usage": "GET /search/tv",
+        "Example": {
+            "Scenario": "If you want to search for the id of a TV show with the name 'Friends'",
+            "Parameters": {
+                "input": "GET /search/tv?query=Friends"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Search for a TV show and obtain its corresponding TV ID. For instance, searching for \"Friends\" will provide its unique identifier.",
+        "rewrite_description_length": 27
+    },
+    {
+        "ID": 9,
+        "tool_name": "/tv/{tv_id}/season/{season_number}/episode/{episode_number}",
+        "tool_description": "Get the TV episode details by id.",
+        "tool_usage": "GET /tv/{tv_id}/season/{season_number}/episode/{episode_number}",
+        "Example": {
+            "Scenario": "If you want to get details of the 3rd episode from the 2nd season of the TV show with tv_id 456.",
+            "Parameters": {
+                "input": "GET /tv/456/season/2/episode/3"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve detailed information about a specific TV episode by providing its ID. This includes details such as the episode's title, synopsis, and release date.",
+        "rewrite_description_length": 30
+    },
+    {
+        "ID": 10,
+        "tool_name": "/network/{network_id}/images",
+        "tool_description": "Get the TV network logos by id.",
+        "tool_usage": "GET /network/{network_id}/images",
+        "Example": {
+            "Scenario": "if you want to retrieve the logos of a TV network with network_id 50.",
+            "Parameters": {
+                "input": "GET /network/50/images"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve the logos of a TV network based on its network ID. Input the network ID in the URL to get the associated logos.",
+        "rewrite_description_length": 27
+    },
+    {
+        "ID": 11,
+        "tool_name": "/genre/tv/list",
+        "tool_description": "Get the list of official genres for TV shows.",
+        "tool_usage": "GET /genre/tv/list",
+        "Example": {
+            "Scenario": "if you want to get the list of official genres for TV shows.",
+            "Parameters": {
+                "input": "GET /genre/tv/list"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "This API endpoint allows you to retrieve a list of official genres that are used to categorize TV shows.",
+        "rewrite_description_length": 22
+    },
+    {
+        "ID": 12,
+        "tool_name": "/search/movie",
+        "tool_description": "Search for movies, which can obtain movie_id.",
+        "tool_usage": "GET /search/movie",
+        "Example": {
+            "Scenario": "If you want to search for the id of a movie with the name 'Avatar'",
+            "Parameters": {
+                "input": "GET /search/movie?query=Avatar"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Search for movies and obtain their unique movie IDs. This can be useful for further API calls or database queries related to specific movies.",
+        "rewrite_description_length": 27
+    },
+    {
+        "ID": 13,
+        "tool_name": "/discover/movie",
+        "tool_description": "Discover movies by different types of data like average rating, number of votes, genres and certifications",
+        "tool_usage": "GET /discover/movie",
+        "Example": {
+            "Scenario": "If you want to discover movies by different types of data like average rating, number of votes, genres and certifications.",
+            "Parameters": {
+                "input": "GET /discover/movie"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Discover movies tailored to your preferences using criteria such as average rating, vote count, genres, and certifications.",
+        "rewrite_description_length": 22
+    },
+    {
+        "ID": 14,
+        "tool_name": "/movie/upcoming",
+        "tool_description": "Get a list of upcoming movies in theatres.",
+        "tool_usage": "GET /movie/upcoming",
+        "Example": {
+            "Scenario": "if you want to get a list of upcoming movies in theatres.",
+            "Parameters": {
+                "input": "GET /movie/upcoming"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Get a list of upcoming movies currently playing in theatres. This API endpoint provides information on upcoming movie releases.",
+        "rewrite_description_length": 23
+    },
+    {
+        "ID": 15,
+        "tool_name": "/credit/{credit_id}",
+        "tool_description": "Get a movie or TV credit details by id.",
+        "tool_usage": "GET /credit/{credit_id}",
+        "Example": {
+            "Scenario": "if you want to get the details of movie or TV credit with credit_id as 456.",
+            "Parameters": {
+                "input": "GET /credit/456"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve detailed information about a credit associated with a movie or TV show using the provided credit ID.",
+        "rewrite_description_length": 20
+    },
+    {
+        "ID": 16,
+        "tool_name": "/person/{person_id}/tv_credits",
+        "tool_description": "Get the TV show credits for a person. You should first know the person_id and thus this tool should be used after /search/person.",
+        "tool_usage": "GET /person/{person_id}/tv_credits",
+        "Example": {
+            "Scenario": "If you want to get the TV show credits of a person with person_id 456.",
+            "Parameters": {
+                "input": "GET /person/456/tv_credits"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get the TV show credits for a person. You should first know the person_id and thus this tool should be used after /search/person.",
+        "rewrite_description_length": 29
+    },
+    {
+        "ID": 17,
+        "tool_name": "/tv/latest",
+        "tool_description": "Get the most newly created TV show.",
+        "tool_usage": "GET /tv/latest",
+        "Example": {
+            "Scenario": "If you want to get the most newly created TV show.",
+            "Parameters": {
+                "input": "GET /tv/latest"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Get the details of the latest TV show added to the database. This endpoint provides information about the most recently created TV show.",
+        "rewrite_description_length": 26
+    },
+    {
+        "ID": 18,
+        "tool_name": "/company/{company_id}",
+        "tool_description": "Get a companies details by id. You should first know the company_id and thus this tool should be used after /search/company.",
+        "tool_usage": "GET /company/{company_id}",
+        "Example": {
+            "Scenario": "if you want to know the details of a company with company_id 456.",
+            "Parameters": {
+                "input": "GET /company/456"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get a companies details by id. You should first know the company_id and thus this tool should be used after /search/company.",
+        "rewrite_description_length": 27
+    },
+    {
+        "ID": 19,
+        "tool_name": "/tv/{tv_id}/images",
+        "tool_description": "Get the images that belong to a TV show. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "tool_usage": "GET /tv/{tv_id}/images",
+        "Example": {
+            "Scenario": "if you want to get the images of a TV show with tv_id 456.",
+            "Parameters": {
+                "input": "GET /tv/456/images"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Get images associated with a TV show by its ID. Use after searching for the TV show to obtain its ID.",
+        "rewrite_description_length": 24
+    },
+    {
+        "ID": 20,
+        "tool_name": "/tv/{tv_id}/season/{season_number}/credits",
+        "tool_description": "Get the credits for TV season. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "tool_usage": "GET /tv/{tv_id}/season/{season_number}/credits",
+        "Example": {
+            "Scenario": "if you want to get the credits for a TV season with tv_id 456 and season_number 2.",
+            "Parameters": {
+                "input": "GET /tv/456/season/2/credits"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get the credits for TV season. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "rewrite_description_length": 28
+    },
+    {
+        "ID": 21,
+        "tool_name": "/movie/now_playing",
+        "tool_description": "Get a list of movies in theatres.",
+        "tool_usage": "GET /movie/now_playing",
+        "Example": {
+            "Scenario": "If you want to get a list of movies currently playing in theatres.",
+            "Parameters": {
+                "input": "GET /movie/now_playing"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve a list of movies currently showing in theatres by sending a GET request to /movie/now_playing.",
+        "rewrite_description_length": 23
+    },
+    {
+        "ID": 22,
+        "tool_name": "/review/{review_id}",
+        "tool_description": "Get review from a reviewer",
+        "tool_usage": "GET /review/{review_id}",
+        "Example": {
+            "Scenario": "If you want to get a review with review_id 456.",
+            "Parameters": {
+                "input": "GET /review/456"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve a specific review by providing its ID. This allows you to access detailed information about a particular review.",
+        "rewrite_description_length": 22
+    },
+    {
+        "ID": 23,
+        "tool_name": "/tv/on_the_air",
+        "tool_description": "Get a list of shows that are currently on the air.",
+        "tool_usage": "GET /tv/on_the_air",
+        "Example": {
+            "Scenario": "If you want to know the list of shows currently on air.",
+            "Parameters": {
+                "input": "GET /tv/on_the_air"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "This API endpoint retrieves the list of TV shows that are currently airing. It provides a comprehensive view of shows that are currently available for viewing.",
+        "rewrite_description_length": 29
+    },
+    {
+        "ID": 24,
+        "tool_name": "/movie/{movie_id}",
+        "tool_description": "Get the primary information about a movie. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "tool_usage": "GET /movie/{movie_id}",
+        "Example": {
+            "Scenario": "if you want to get the primary information about a movie with movie_id 456.",
+            "Parameters": {
+                "input": "GET /movie/456"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get the primary information about a movie. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "rewrite_description_length": 28
+    },
+    {
+        "ID": 25,
+        "tool_name": "/tv/{tv_id}/season/{season_number}/images",
+        "tool_description": "Get the images that belong to a TV season. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "tool_usage": "GET /tv/{tv_id}/season/{season_number}/images",
+        "Example": {
+            "Scenario": "if you want to get the images of a specific season of a TV show with tv_id 456 and season_number 2.",
+            "Parameters": {
+                "input": "GET /tv/456/season/2/images"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Get images from a TV season. You must know the TV ID first, so use this tool after searching for a TV show.",
+        "rewrite_description_length": 27
+    },
+    {
+        "ID": 26,
+        "tool_name": "/company/{company_id}/images",
+        "tool_description": "Get a companies logos by id . You should first know the company_id and thus this tool should be used after /search/company.",
+        "tool_usage": "GET /company/{company_id}/images",
+        "Example": {
+            "Scenario": "if you want to fetch the logos of the company with company_id 789.",
+            "Parameters": {
+                "input": "GET /company/789/images"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get a companies logos by id . You should first know the company_id and thus this tool should be used after /search/company.",
+        "rewrite_description_length": 27
+    },
+    {
+        "ID": 27,
+        "tool_name": "/tv/{tv_id}/reviews",
+        "tool_description": "Get the reviews for a TV show. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "tool_usage": "GET /tv/{tv_id}/reviews",
+        "Example": {
+            "Scenario": "if you want to read the reviews of a TV show with tv_id 567.",
+            "Parameters": {
+                "input": "GET /tv/567/reviews"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get the reviews for a TV show. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "rewrite_description_length": 29
+    },
+    {
+        "ID": 28,
+        "tool_name": "/tv/{tv_id}/similar",
+        "tool_description": "Get a list of similar TV shows. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "tool_usage": "GET /tv/{tv_id}/similar",
+        "Example": {
+            "Scenario": "If you want to find similar TV shows to the one with tv_id 456.",
+            "Parameters": {
+                "input": "GET /tv/456/similar"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get a list of similar TV shows. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "rewrite_description_length": 29
+    },
+    {
+        "ID": 29,
+        "tool_name": "/network/{network_id}",
+        "tool_description": "Get the details of a network.",
+        "tool_usage": "GET /network/{network_id}",
+        "Example": {
+            "Scenario": "If you want to know the details of a network with network_id 456.",
+            "Parameters": {
+                "input": "GET /network/456"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve detailed information about a specific network on the platform, including its history, popular shows, and genre.",
+        "rewrite_description_length": 22
+    },
+    {
+        "ID": 30,
+        "tool_name": "/tv/{tv_id}/recommendations",
+        "tool_description": "Get the list of TV show recommendations for this item. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "tool_usage": "GET /tv/{tv_id}/recommendations",
+        "Example": {
+            "Scenario": "if you want to get recommendations for a TV show with tv_id 456.",
+            "Parameters": {
+                "input": "GET /tv/456/recommendations"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Get TV show recommendations for a specific TV show. Find the tv_id using /search/tv and then use it here to retrieve recommendations.",
+        "rewrite_description_length": 29
+    },
+    {
+        "ID": 31,
+        "tool_name": "/tv/{tv_id}/season/{season_number}/episode/{episode_number}/images",
+        "tool_description": "Get the images that belong to a TV episode. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "tool_usage": "GET /tv/{tv_id}/season/{season_number}/episode/{episode_number}/images",
+        "Example": {
+            "Scenario": "If you want to know the images of a TV episode with tv_id 456, season_number 2 and episode_number 3.",
+            "Parameters": {
+                "input": "GET /tv/456/season/2/episode/3/images"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Get images for a specific TV episode. Requires tv_id, obtained from the /search/tv endpoint, as well as season and episode numbers.",
+        "rewrite_description_length": 30
+    },
+    {
+        "ID": 32,
+        "tool_name": "/movie/popular",
+        "tool_description": "Get a list of the current popular movies on TMDb.",
+        "tool_usage": "GET /movie/popular",
+        "Example": {
+            "Scenario": "if you want to get a list of the current popular movies on TMDb.",
+            "Parameters": {
+                "input": "GET /movie/popular"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve a list of the current popular movies on The Movie Database (TMDb) using this API endpoint.",
+        "rewrite_description_length": 23
+    },
+    {
+        "ID": 33,
+        "tool_name": "/tv/airing_today",
+        "tool_description": "Get a list of TV shows that are airing today.",
+        "tool_usage": "GET /tv/airing_today",
+        "Example": {
+            "Scenario": "If you want to get a list of TV shows that are airing today.",
+            "Parameters": {
+                "input": "GET /tv/airing_today"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Discover TV shows currently airing today with our comprehensive list. Stay up-to-date on your favorite shows and find new ones to enjoy.",
+        "rewrite_description_length": 27
+    },
+    {
+        "ID": 34,
+        "tool_name": "/tv/{tv_id}/keywords",
+        "tool_description": "Get the keywords that have been added to a TV show. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "tool_usage": "GET /tv/{tv_id}/keywords",
+        "Example": {
+            "Scenario": "if you want to know the keywords of a TV show with tv_id 456.",
+            "Parameters": {
+                "input": "GET /tv/456/keywords"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Get keywords associated with a TV show using its ID. Use '/search/tv' to obtain the TV show's ID.",
+        "rewrite_description_length": 26
+    },
+    {
+        "ID": 35,
+        "tool_name": "/search/person",
+        "tool_description": "Search for people, which can obtain person_id.",
+        "tool_usage": "GET /search/person",
+        "Example": {
+            "Scenario": "If you want to search for the id of a person with the name 'Leonardo DiCaprio'",
+            "Parameters": {
+                "input": "GET /search/person?query=Leonardo%20DiCaprio"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Search for people to obtain their unique person_id. This endpoint allows you to find specific individuals, such as actors or directors, in the database.",
+        "rewrite_description_length": 30
+    },
+    {
+        "ID": 36,
+        "tool_name": "/search/company",
+        "tool_description": "Search for companies, which can obtain company_id.",
+        "tool_usage": "GET /search/company",
+        "Example": {
+            "Scenario": "If you want to search for the id of a company with the name 'Disney'",
+            "Parameters": {
+                "input": "GET /search/company?query=Disney"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Search for companies by name or ID to obtain their company ID. This API is useful for identifying companies involved in movie or TV show production.",
+        "rewrite_description_length": 29
+    },
+    {
+        "ID": 37,
+        "tool_name": "/discover/tv",
+        "tool_description": "Discover TV shows by different types of data like average rating, number of votes, genres, the network they aired on and air dates.",
+        "tool_usage": "GET /discover/tv",
+        "Example": {
+            "Scenario": "If you want to discover TV shows by their average rating, number of votes, genres, the network they aired on and air dates.",
+            "Parameters": {
+                "input": "GET /discover/tv"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Discover TV shows by different types of data like average rating, number of votes, genres, the network they aired on and air dates.",
+        "rewrite_description_length": 28
+    },
+    {
+        "ID": 38,
+        "tool_name": "/movie/top_rated",
+        "tool_description": "Get the top rated movies on TMDb.",
+        "tool_usage": "GET /movie/top_rated",
+        "Example": {
+            "Scenario": "If you want to get the top rated movies on TMDb.",
+            "Parameters": {
+                "input": "GET /movie/top_rated"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve the top-rated movies from TMDb's extensive database, providing access to a curated list of highly acclaimed films.",
+        "rewrite_description_length": 25
+    },
+    {
+        "ID": 39,
+        "tool_name": "/movie/latest",
+        "tool_description": "Get the most newly created movie.",
+        "tool_usage": "GET /movie/latest",
+        "Example": {
+            "Scenario": "if you want to know the details of the most recently created movie.",
+            "Parameters": {
+                "input": "GET /movie/latest"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve information about the most recently created movie in the database. This endpoint provides details of the latest movie added to the system.",
+        "rewrite_description_length": 26
+    },
+    {
+        "ID": 40,
+        "tool_name": "/tv/top_rated",
+        "tool_description": "Get a list of the top rated TV shows on TMDb.",
+        "tool_usage": "GET /tv/top_rated",
+        "Example": {
+            "Scenario": "If you want to get a list of top rated TV shows on TMDb.",
+            "Parameters": {
+                "input": "GET /tv/top_rated"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Get a comprehensive list of top-rated TV shows from TMDb, providing an overview of the most highly acclaimed series.",
+        "rewrite_description_length": 25
+    },
+    {
+        "ID": 41,
+        "tool_name": "/trending/{media_type}/{time_window}",
+        "tool_description": "Get the daily or weekly trending items.",
+        "tool_usage": "GET /trending/{media_type}/{time_window}",
+        "Example": {
+            "Scenario": "if you want to know the weekly trending movies.",
+            "Parameters": {
+                "input": "GET /trending/movie/week"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "This tool allows users to access popular trending items, either daily or weekly, in the form of movies or TV shows.",
+        "rewrite_description_length": 25
+    },
+    {
+        "ID": 42,
+        "tool_name": "/genre/movie/list",
+        "tool_description": "Get the list of official genres for movies.",
+        "tool_usage": "GET /genre/movie/list",
+        "Example": {
+            "Scenario": "If you want to get the list of official genres for movies.",
+            "Parameters": {
+                "input": "GET /genre/movie/list"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve a comprehensive list of official genres used to categorize movies. This tool provides a standardized taxonomy of genre classifications.",
+        "rewrite_description_length": 24
+    },
+    {
+        "ID": 43,
+        "tool_name": "/tv/{tv_id}/season/{season_number}",
+        "tool_description": "Get the TV season details by id. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "tool_usage": "GET /tv/{tv_id}/season/{season_number}",
+        "Example": {
+            "Scenario": "if you want to know the details of season 2 from the TV series with tv_id 456.",
+            "Parameters": {
+                "input": "GET /tv/456/season/2"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get the TV season details by id. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "rewrite_description_length": 29
+    },
+    {
+        "ID": 44,
+        "tool_name": "/collection/{collection_id}",
+        "tool_description": "Get collection details by id. You should first know the collection_id and thus this tool should be used after /search/collection.",
+        "tool_usage": "GET /collection/{collection_id}",
+        "Example": {
+            "Scenario": "if you want to get details of a collection with collection_id 456.",
+            "Parameters": {
+                "input": "GET /collection/456"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get collection details by id. You should first know the collection_id and thus this tool should be used after /search/collection.",
+        "rewrite_description_length": 27
+    },
+    {
+        "ID": 45,
+        "tool_name": "/person/{person_id}/images",
+        "tool_description": "Get the images for a person. You should first know the person_id and thus this tool should be used after /search/person.",
+        "tool_usage": "GET /person/{person_id}/images",
+        "Example": {
+            "Scenario": "if you want to get the images of a person with person_id 456.",
+            "Parameters": {
+                "input": "GET /person/456/images"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get the images for a person. You should first know the person_id and thus this tool should be used after /search/person.",
+        "rewrite_description_length": 27
+    },
+    {
+        "ID": 46,
+        "tool_name": "/tv/{tv_id}",
+        "tool_description": "Get the primary TV show details by id. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "tool_usage": "GET /tv/{tv_id}",
+        "Example": {
+            "Scenario": "If you want to retrieve the primary details of a TV show with tv_id 789.",
+            "Parameters": {
+                "input": "GET /tv/789"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get the primary TV show details by id. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "rewrite_description_length": 30
+    },
+    {
+        "ID": 47,
+        "tool_name": "/person/popular",
+        "tool_description": "Get the list of popular people on TMDb.",
+        "tool_usage": "GET /person/popular",
+        "Example": {
+            "Scenario": "If you want to fetch the list of popular people on TMDb.",
+            "Parameters": {
+                "input": "GET /person/popular"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve a list of popular people on The Movie Database (TMDb) by sending a GET request to the /person/popular endpoint.",
+        "rewrite_description_length": 29
+    },
+    {
+        "ID": 48,
+        "tool_name": "/collection/{collection_id}/images",
+        "tool_description": "Get the images for a collection by id. You should first know the collection_id and thus this tool should be used after /search/collection.",
+        "tool_usage": "GET /collection/{collection_id}/images",
+        "Example": {
+            "Scenario": "if you want to get the images of a collection with collection_id 456.",
+            "Parameters": {
+                "input": "GET /collection/456/images"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get the images for a collection by id. You should first know the collection_id and thus this tool should be used after /search/collection.",
+        "rewrite_description_length": 30
+    },
+    {
+        "ID": 49,
+        "tool_name": "/tv/{tv_id}/credits",
+        "tool_description": "Get the credits (cast and crew) that have been added to a TV show. You should first know the tv_id and thus this tool should be used after /search/tv.",
+        "tool_usage": "GET /tv/{tv_id}/credits",
+        "Example": {
+            "Scenario": "if you want to know the credits of a TV show with tv_id 456.",
+            "Parameters": {
+                "input": "GET /tv/456/credits"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Get credits (cast and crew) for a TV show using its tv_id. Complements the /search/tv endpoint.",
+        "rewrite_description_length": 26
+    },
+    {
+        "ID": 50,
+        "tool_name": "/person/{person_id}/movie_credits",
+        "tool_description": "Get the movie credits for a person, the results contains various information such as popularity and release date. You should first know the person_id and thus this tool should be used after /search/person.",
+        "tool_usage": "GET /person/{person_id}/movie_credits",
+        "Example": {
+            "Scenario": "if you want to get the movie credits for a person with person_id 456.",
+            "Parameters": {
+                "input": "GET /person/456/movie_credits"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Retrieve a person's movie credits, including popularity and release dates. Requires the person's ID, obtainable via the /search/person tool.",
+        "rewrite_description_length": 29
+    },
+    {
+        "ID": 51,
+        "tool_name": "/movie/{movie_id}/recommendations",
+        "tool_description": "Get a list of recommended movies for a movie. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "tool_usage": "GET /movie/{movie_id}/recommendations",
+        "Example": {
+            "Scenario": "if you want to get a list of recommended movies for the movie with movie_id 456.",
+            "Parameters": {
+                "input": "GET /movie/456/recommendations"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get a list of recommended movies for a movie. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "rewrite_description_length": 30
+    },
+    {
+        "ID": 52,
+        "tool_name": "/search/collection",
+        "tool_description": "Search for collections, which can obtain collection_id.",
+        "tool_usage": "GET /search/collection",
+        "Example": {
+            "Scenario": "if you want to search for a collection id of Star Wars.",
+            "Parameters": {
+                "input": "GET /search/collection?query=Star%20Wars"
+            }
+        },
+        "if_rewrite": true,
+        "rewrite_description": "Search for collection IDs using this API. For example, you can search for the collection ID associated with the \"Star Wars\" franchise.",
+        "rewrite_description_length": 28
+    },
+    {
+        "ID": 53,
+        "tool_name": "/movie/{movie_id}/credits",
+        "tool_description": "Get the cast and crew for a movie. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "tool_usage": "GET /movie/{movie_id}/credits",
+        "Example": {
+            "Scenario": "if you want to know the cast and crew of a movie with movie_id 789.",
+            "Parameters": {
+                "input": "GET /movie/789/credits"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get the cast and crew for a movie. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "rewrite_description_length": 29
+    },
+    {
+        "ID": 54,
+        "tool_name": "/movie/{movie_id}/similar",
+        "tool_description": "Get a list of similar movies. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "tool_usage": "GET /movie/{movie_id}/similar",
+        "Example": {
+            "Scenario": "if you want to find movies similar to the movie with movie_id 456.",
+            "Parameters": {
+                "input": "GET /movie/456/similar"
+            }
+        },
+        "if_rewrite": false,
+        "rewrite_description": "Get a list of similar movies. You should first know the movie_id and thus this tool should be used after /search/movie.",
+        "rewrite_description_length": 27
+    }
+]
