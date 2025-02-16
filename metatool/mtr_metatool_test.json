@@ -1,0 +1,812 @@
+[   
+    {
+        "query": "I have a long list of URLs, and I want you to generate articles summarizing the content from each of them.",
+        "relevant Tools": [
+            "PDF&URLTool"
+        ],
+        "relevant IDs": [
+            171
+        ]
+    },
+    {
+        "query": "I'm a Leo, and I would like to know more about users' requests and how I can assist them efficiently.",
+        "relevant Tools": [
+            "Horoscopes_by_Inner_Self"
+        ],
+        "relevant IDs": [
+            100
+        ]
+    },
+    {
+        "query": "I accidentally deleted an important email from my inbox, and I'm wondering if there is any possible way to recover it.",
+        "relevant Tools": [
+            "EmailByNylas"
+        ],
+        "relevant IDs": [
+            105
+        ]
+    },
+    {
+        "query": "Can you please provide me with comprehensive information and a list of funding opportunities available specifically for medical research in the United Kingdom?",
+        "relevant Tools": [
+            "fundsdbsearch"
+        ],
+        "relevant IDs": [
+            84
+        ]
+    },
+    {
+        "query": "Can you please provide me with a detailed weather update for Seattle this afternoon, specifically regarding whether it will be sunny or not?",
+        "relevant Tools": [
+            "WeatherTool"
+        ],
+        "relevant IDs": [
+            184
+        ]
+    },
+    {
+        "query": "Can you please provide step-by-step instructions on how to embed a Google Sheets document within a page or workspace in Notion?",
+        "relevant Tools": [
+            "chat_with_workspace"
+        ],
+        "relevant IDs": [
+            66
+        ]
+    },
+    {
+        "query": "Can you provide me with a comprehensive list of apartments available for rent in Chicago, specifically for less than $1500 per month?",
+        "relevant Tools": [
+            "HouseRentingTool"
+        ],
+        "relevant IDs": [
+            187
+        ]
+    },
+    {
+        "query": "I'm specifically looking for a trustworthy and reliable transporter who possesses a valid USDA certificate, ensuring compliance with all necessary regulations and guidelines.",
+        "relevant Tools": [
+            "haulingbuddies"
+        ],
+        "relevant IDs": [
+            148
+        ]
+    },
+    {
+        "query": "I want to know the result of performing a right shift operation on the decimal number 16 by 3 bits.",
+        "relevant Tools": [
+            "calculator"
+        ],
+        "relevant IDs": [
+            4
+        ]
+    },
+    {
+        "query": "I want to create a task in HubSpot for every new email I receive. It's becoming overwhelming to manually create tasks.",
+        "relevant Tools": [
+            "Zapier"
+        ],
+        "relevant IDs": [
+            151
+        ]
+    },
+    {
+        "query": "Can you tell me what the interaction would be between Scorching Dragonfire and Klothys, God of Destiny?",
+        "relevant Tools": [
+            "magi_codex"
+        ],
+        "relevant IDs": [
+            22
+        ]
+    },
+    {
+        "query": "I'm feeling lost and need some guidance in finding my purpose in life, improving my self-confidence, and making important life decisions.",
+        "relevant Tools": [
+            "Dr_Thoths_Tarot"
+        ],
+        "relevant IDs": [
+            112
+        ]
+    },
+    {
+        "query": "I need help creating content that will resonate with my target audience. Can you generate social media posts that align with my brand?",
+        "relevant Tools": [
+            "SEOTool"
+        ],
+        "relevant IDs": [
+            193
+        ]
+    },
+    {
+        "query": "I need advice on choosing the right keywords for my website. Can you provide insights on keywords that will boost its SEO?",
+        "relevant Tools": [
+            "seoanalysis"
+        ],
+        "relevant IDs": [
+            138
+        ]
+    },
+    {
+        "query": "Can you please check the availability of the domain \"travelaroundtheworld.net\" and verify if it is still available for registration?",
+        "relevant Tools": [
+            "URLTool"
+        ],
+        "relevant IDs": [
+            176
+        ]
+    },
+    {
+        "query": "I need to design a flowchart for my business processes. Can you assist me in creating it using this Diagrams tool?",
+        "relevant Tools": [
+            "ChartTool"
+        ],
+        "relevant IDs": [
+            164
+        ]
+    },
+    {
+        "query": "Can you please provide me with the detailed inclusion and exclusion criteria for the clinical trial with the identification number NCT05859269?",
+        "relevant Tools": [
+            "CTCP"
+        ],
+        "relevant IDs": [
+            89
+        ]
+    },
+    {
+        "query": "I lost my flight confirmation email. Can you help me find it? It's from the airline 'ABC Flights'.",
+        "relevant Tools": [
+            "EmailByNylas"
+        ],
+        "relevant IDs": [
+            105
+        ]
+    },
+    {
+        "query": "Tottenham match, specifically the temperature, wind speed, and any instances of rain or snow that may have affected gameplay.",
+        "relevant Tools": [
+            "keyplays_football"
+        ],
+        "relevant IDs": [
+            125
+        ]
+    },
+    {
+        "query": "I'm currently in the market for purchasing a brand-new laptop that will meet all of my personal computing needs and preferences.",
+        "relevant Tools": [
+            "Man_of_Many"
+        ],
+        "relevant IDs": [
+            45
+        ]
+    },
+    {
+        "query": "I hate not being able to communicate when I travel! MixerBox Translate can help me overcome language barriers and have meaningful conversations with locals!",
+        "relevant Tools": [
+            "MixerBox_Translate_AI_language_tutor"
+        ],
+        "relevant IDs": [
+            17
+        ]
+    },
+    {
+        "query": "I heard there's a new musical on Broadway. Can you tell me which show it is and when it started?",
+        "relevant Tools": [
+            "Broadway"
+        ],
+        "relevant IDs": [
+            12
+        ]
+    },
+    {
+        "query": "Can you provide the latest METAR report for the specific geographical coordinates of 30.2 latitude and -82.1 longitude?",
+        "relevant Tools": [
+            "C3_Glide"
+        ],
+        "relevant IDs": [
+            123
+        ]
+    },
+    {
+        "query": "I have a list of customer comments regarding our website. Can you generate a word cloud to identify the most frequently mentioned aspects?",
+        "relevant Tools": [
+            "WordCloud"
+        ],
+        "relevant IDs": [
+            46
+        ]
+    },
+    {
+        "query": "I'm curious to know the detailed weather forecast, including temperature, wind speed, precipitation, and conditions, for tomorrow.",
+        "relevant Tools": [
+            "universal"
+        ],
+        "relevant IDs": [
+            57
+        ]
+    },
+    {
+        "query": "I'm experiencing significant issues with my computer's performance, including frequent lagging, slow booting, and long application loading times.",
+        "relevant Tools": [
+            "aiAgents"
+        ],
+        "relevant IDs": [
+            41
+        ]
+    },
+    {
+        "query": "Yes, it is possible for users to toggle the Do Not Disturb mode for their CLINQ account using the plugin.",
+        "relevant Tools": [
+            "clinq"
+        ],
+        "relevant IDs": [
+            50
+        ]
+    },
+    {
+        "query": "I'm looking for a sculpture created by Auguste Rodin at The Metropolitan Museum of Art. Can you help me?",
+        "relevant Tools": [
+            "ArtCollection"
+        ],
+        "relevant IDs": [
+            69
+        ]
+    },
+    {
+        "query": "Can you provide me with information about the top-rated sushi restaurants in the local area, including recommendations for the absolute best ones?",
+        "relevant Tools": [
+            "word_sneak"
+        ],
+        "relevant IDs": [
+            134
+        ]
+    },
+    {
+        "query": "Hey! I need some assistance in analyzing my competitor's PPC ad strategy. Can you fetch their recent ad history for me? ",
+        "relevant Tools": [
+            "competitorppcads"
+        ],
+        "relevant IDs": [
+            137
+        ]
+    },
+    {
+        "query": "I can't believe this is happening! What's the horoscope for Aries on January 1, 2023?",
+        "relevant Tools": [
+            "StrologyTool"
+        ],
+        "relevant IDs": [
+            160
+        ]
+    },
+    {
+        "query": "Hey! I need some assistance with pump model XYZ456. Can you provide me with the catalog and manual for this model? ",
+        "relevant Tools": [
+            "CranePumpsManuals"
+        ],
+        "relevant IDs": [
+            102
+        ]
+    },
+    {
+        "query": "Please provide me with a specific hadith, from Islamic traditions, that thoroughly discusses the rewards and benefits associated with acts of charity.",
+        "relevant Tools": [
+            "hadith"
+        ],
+        "relevant IDs": [
+            63
+        ]
+    },
+    {
+        "query": "This programming stuff is so frustrating! Is there a way I can use DeployScript to easily build web apps without coding?",
+        "relevant Tools": [
+            "deployscript"
+        ],
+        "relevant IDs": [
+            99
+        ]
+    },
+    {
+        "query": "I want to create targeted advertisements for my specific products and showcase them to a wide audience on popular platforms such as Facebook and Bing.",
+        "relevant Tools": [
+            "Google_Ads_Shopping_Microsoft_Ads_pay_per_click"
+        ],
+        "relevant IDs": [
+            42
+        ]
+    },
+    {
+        "query": "I am specifically searching for a unique and catchy domain name that perfectly aligns with the theme and purpose of my brand new blog.",
+        "relevant Tools": [
+            "URLTool"
+        ],
+        "relevant IDs": [
+            176
+        ]
+    },
+    {
+        "query": "I'm clueless about what to get my dad for Father's Day. Can you provide me with some exciting gift options?",
+        "relevant Tools": [
+            "shimmer_daily"
+        ],
+        "relevant IDs": [
+            18
+        ]
+    },
+    {
+        "query": "Hey Ontario, I've been thinking about investing in commercial real estate. Can you give me some information on available properties?",
+        "relevant Tools": [
+            "HousePurchasingTool"
+        ],
+        "relevant IDs": [
+            188
+        ]
+    },
+    {
+        "query": "I'm thrilled to start my learning journey. Can you assist me in finding excellent online classes and teachers on Outschool?",
+        "relevant Tools": [
+            "CourseTool"
+        ],
+        "relevant IDs": [
+            158
+        ]
+    },
+    {
+        "query": "I'm posting a picture of a scenic hike. Can you suggest some nature-related hashtags that hikers and outdoor enthusiasts usually follow?",
+        "relevant Tools": [
+            "social_media_muse"
+        ],
+        "relevant IDs": [
+            34
+        ]
+    },
+    {
+        "query": "Can you accurately and efficiently count the total number of words in this specific paragraph, and provide me with the precise count?",
+        "relevant Tools": [
+            "word_counter"
+        ],
+        "relevant IDs": [
+            53
+        ]
+    },
+    {
+        "query": "I urgently require assistance in locating an incredibly proficient writer who possesses the ability to craft highly captivating and flawlessly written content.",
+        "relevant Tools": [
+            "MyWritingCompanion"
+        ],
+        "relevant IDs": [
+            13
+        ]
+    },
+    {
+        "query": "Could you provide me with information about the mission, key people, and governance structure of the Make-A-Wish Foundation?",
+        "relevant Tools": [
+            "CharityTool"
+        ],
+        "relevant IDs": [
+            156
+        ]
+    },
+    {
+        "query": "What happens when a creature with \"trample\" deals damage to a player and encounters a creature with indestructible?",
+        "relevant Tools": [
+            "magi_codex"
+        ],
+        "relevant IDs": [
+            22
+        ]
+    },
+    {
+        "query": "I'm feeling adventurous and ready to compete! Which map should I be expecting in APEX Legends Ranked right now?",
+        "relevant Tools": [
+            "ApexMap"
+        ],
+        "relevant IDs": [
+            35
+        ]
+    },
+    {
+        "query": "This is ridiculous! I need to generate a QR code quickly. Why is it so hard to find a reliable QR code creator?",
+        "relevant Tools": [
+            "create_qr_code"
+        ],
+        "relevant IDs": [
+            39
+        ]
+    },
+    {
+        "query": "Can you please help me comprehend the conclusions of the research paper with Arxiv ID 1806.54321? ",
+        "relevant Tools": [
+            "ResearchHelper"
+        ],
+        "relevant IDs": [
+            192
+        ]
+    },
+    {
+        "query": "Hi there! I wanted to ask if you could provide detailed information on the current busyness level of Legoland California today?",
+        "relevant Tools": [
+            "themeparkhipster"
+        ],
+        "relevant IDs": [
+            103
+        ]
+    },
+    {
+        "query": "Hey, I need some expert advice on improving the copywriting on my landing page. Can you assist me with that? ",
+        "relevant Tools": [
+            "copywriter"
+        ],
+        "relevant IDs": [
+            5
+        ]
+    },
+    {
+        "query": "I would like to create a 3D object, more specifically a crown, that exhibits intricate details and elaborate embellishments.",
+        "relevant Tools": [
+            "Creaticode_Extension_of_MIT_Scratch"
+        ],
+        "relevant IDs": [
+            142
+        ]
+    },
+    {
+        "query": "Can you please check if there are any speed cameras or roadworks specifically on South Terrace today and provide me with the information?",
+        "relevant Tools": [
+            "SASpeedCameras"
+        ],
+        "relevant IDs": [
+            76
+        ]
+    },
+    {
+        "query": "Can you please provide me with an ASCII representation of the word 'Love' that includes extra details and return the sentence to me?",
+        "relevant Tools": [
+            "Figlet"
+        ],
+        "relevant IDs": [
+            31
+        ]
+    },
+    {
+        "query": "I want to practice expressing gratitude efficiently and consistently every day, as it has been proven to increase happiness and overall well-being.",
+        "relevant Tools": [
+            "mini_habits"
+        ],
+        "relevant IDs": [
+            26
+        ]
+    },
+    {
+        "query": "Can you help me locate a highly-rated restaurant in Japan with online reservations available for a party of four at 7 pm tomorrow?",
+        "relevant Tools": [
+            "RestaurantBookingTool"
+        ],
+        "relevant IDs": [
+            185
+        ]
+    },
+    {
+        "query": "Can you help me find an AI-guided mentor who specializes in design and can assist me in improving my specific design skills?",
+        "relevant Tools": [
+            "search"
+        ],
+        "relevant IDs": [
+            8
+        ]
+    },
+    {
+        "query": "I'm flying to London Heathrow tomorrow. Can you give me the TAF for EGLL on December 8th?",
+        "relevant Tools": [
+            "C3_Glide"
+        ],
+        "relevant IDs": [
+            123
+        ]
+    },
+    {
+        "query": "I'm looking for comprehensive, in-depth and unbiased reviews and ratings from tech experts and consumers alike for the latest iPhone model.",
+        "relevant Tools": [
+            "internetSearch"
+        ],
+        "relevant IDs": [
+            130
+        ]
+    },
+    {
+        "query": "Can you please provide me with the complete definition and precise meaning of the word \"bonjour\" in the French language?",
+        "relevant Tools": [
+            "speak"
+        ],
+        "relevant IDs": [
+            150
+        ]
+    },
+    {
+        "query": "Users' requests are to have a Reflect note generated, which should summarize the main points that have been discussed up until now.",
+        "relevant Tools": [
+            "reflect_notes"
+        ],
+        "relevant IDs": [
+            67
+        ]
+    },
+    {
+        "query": "I'm feeling nostalgic for the 80s music. Can you put together a playlist with the greatest hits from that era?",
+        "relevant Tools": [
+            "MusicTool"
+        ],
+        "relevant IDs": [
+            182
+        ]
+    },
+    {
+        "query": "I need a suitable and experienced replacement for the highly skilled and influential midfielder, Kevin De Bruyne, who has sustained an injury.",
+        "relevant Tools": [
+            "talkfpl"
+        ],
+        "relevant IDs": [
+            20
+        ]
+    },
+    {
+        "query": "I need assistance in analyzing the eligibility requirements for a specific clinical trial with the ID NCT Can you help me with that?",
+        "relevant Tools": [
+            "CTCP"
+        ],
+        "relevant IDs": [
+            89
+        ]
+    },
+    {
+        "query": "I would like to receive detailed information about the occurrence of any earthquakes in the Philippines specifically within the last 24 hours.",
+        "relevant Tools": [
+            "EarthquakeTool"
+        ],
+        "relevant IDs": [
+            165
+        ]
+    },
+    {
+        "query": "Can you recommend a top marketing agency in New York City with expertise in digital marketing, social media advertising, and search engine optimization?",
+        "relevant Tools": [
+            "find_agency"
+        ],
+        "relevant IDs": [
+            104
+        ]
+    },
+    {
+        "query": "Can you assist me in deploying a webhook for my fitness app that sends personalized workout reminders to users based on their preferred schedule?",
+        "relevant Tools": [
+            "webhooks"
+        ],
+        "relevant IDs": [
+            79
+        ]
+    },
+    {
+        "query": "I would like to receive detailed information specifically regarding the potential advantages as well as the possible hazards associated with practicing intermittent fasting.",
+        "relevant Tools": [
+            "internetSearch"
+        ],
+        "relevant IDs": [
+            130
+        ]
+    },
+    {
+        "query": "I need to assess my competitor's advertising strategies. Can you provide me with the recent PPC ad history of their domain?",
+        "relevant Tools": [
+            "competitorppcads"
+        ],
+        "relevant IDs": [
+            137
+        ]
+    },
+    {
+        "query": "I've been experiencing frequent pop-ups and redirects while browsing a particular website. Can you scan it for any malicious activity?",
+        "relevant Tools": [
+            "hackit_web_scanner"
+        ],
+        "relevant IDs": [
+            16
+        ]
+    },
+    {
+        "query": "I'm currently researching and analyzing various stages of the life cycle of a star, including its formation, evolution, and eventual demise.",
+        "relevant Tools": [
+            "ChartTool"
+        ],
+        "relevant IDs": [
+            164
+        ]
+    },
+    {
+        "query": "I have written a heartfelt and emotional poem, and I am truly passionate about visually bringing it to life through beautiful and captivating representations.",
+        "relevant Tools": [
+            "WordCloud"
+        ],
+        "relevant IDs": [
+            46
+        ]
+    },
+    {
+        "query": "I need a visually appealing and easily navigable website with intuitive user interface and interactive elements to be professionally developed for my company.",
+        "relevant Tools": [
+            "WebsiteTool"
+        ],
+        "relevant IDs": [
+            175
+        ]
+    },
+    {
+        "query": "I have an innovative concept for a mobile app. Is there a way to transform it into a functional app without coding?",
+        "relevant Tools": [
+            "AppyPieAIAppBuilder"
+        ],
+        "relevant IDs": [
+            140
+        ]
+    },
+    {
+        "query": "As a user, I am specifically seeking detailed and personalized astrological insights that provide an in-depth analysis of my day.",
+        "relevant Tools": [
+            "StrologyTool"
+        ],
+        "relevant IDs": [
+            160
+        ]
+    },
+    {
+        "query": "Our ERP doesn't provide us the in-depth inventory management we need for our manufacturing unit. Can you help tweak it?",
+        "relevant Tools": [
+            "tailor_erp"
+        ],
+        "relevant IDs": [
+            83
+        ]
+    },
+    {
+        "query": "Instead of watching this entire video on YouTube, can you kindly summarize its key points, main arguments, and any important information for me?",
+        "relevant Tools": [
+            "SummarizeAnything_pr"
+        ],
+        "relevant IDs": [
+            9
+        ]
+    },
+    {
+        "query": "Challenge me with a clever and intriguing clue that skillfully integrates the captivating theme of superheroes, igniting curiosity and inspiring engagement.",
+        "relevant Tools": [
+            "crafty_clues"
+        ],
+        "relevant IDs": [
+            133
+        ]
+    },
+    {
+        "query": "I want to watch a highly-rated action-adventure movie with intense action sequences, a gripping plot, and well-developed characters.",
+        "relevant Tools": [
+            "MediaTool"
+        ],
+        "relevant IDs": [
+            180
+        ]
+    },
+    {
+        "query": "I want to get the most out of my money while shopping online. Can you provide me with any available coupons or discount codes?",
+        "relevant Tools": [
+            "Discount"
+        ],
+        "relevant IDs": [
+            195
+        ]
+    },
+    {
+        "query": "I'm trying to budget my expenses for this month. Can you give me the average prices of petrol in Brisbane so far?",
+        "relevant Tools": [
+            "AusPetrolPrices"
+        ],
+        "relevant IDs": [
+            75
+        ]
+    },
+    {
+        "query": "I want to create a personal blog that stands out. Can you check if the domain name I have in mind is already taken?",
+        "relevant Tools": [
+            "URLTool"
+        ],
+        "relevant IDs": [
+            176
+        ]
+    },
+    {
+        "query": "I need to purchase new sports equipment. Can you recommend a reliable online sports store and share a link to it?",
+        "relevant Tools": [
+            "ad4mat"
+        ],
+        "relevant IDs": [
+            15
+        ]
+    },
+    {
+        "query": "I'm specifically looking for landscape paintings by Claude Monet. Can you help me find them at The Metropolitan Museum of Art?",
+        "relevant Tools": [
+            "ArtCollection"
+        ],
+        "relevant IDs": [
+            69
+        ]
+    },
+    {
+        "query": "I want to know more about the people in this picture. Can you analyze their activities and relationships? [Image URL attached]",
+        "relevant Tools": [
+            "SceneXplain"
+        ],
+        "relevant IDs": [
+            149
+        ]
+    },
+    {
+        "query": "I'm specifically looking for some exclusive discounts and promotional deals that can be applied while making online purchases on various popular e-commerce platforms.",
+        "relevant Tools": [
+            "Discount"
+        ],
+        "relevant IDs": [
+            195
+        ]
+    },
+    {
+        "query": "I want to know what the hadith says about the importance of forgiveness. Can you enlighten me with some teachings?",
+        "relevant Tools": [
+            "hadith"
+        ],
+        "relevant IDs": [
+            63
+        ]
+    },
+    {
+        "query": "Can you provide me with a detailed explanation of the steps required to import structural data into Lark Base using this plugin?",
+        "relevant Tools": [
+            "LarkBaseImporter"
+        ],
+        "relevant IDs": [
+            80
+        ]
+    },
+    {
+        "query": "Can you please transform the word 'Cool' into an ASCII font, with each letter of the word represented by ASCII characters?",
+        "relevant Tools": [
+            "Figlet"
+        ],
+        "relevant IDs": [
+            31
+        ]
+    },
+    {
+        "query": "I'm planning to take my kids to the park tomorrow. Can you provide the air quality forecast for zip code 98101?",
+        "relevant Tools": [
+            "airqualityforeast"
+        ],
+        "relevant IDs": [
+            1
+        ]
+    },
+    {
+        "query": "I am specifically searching for available clinical trials that focus on breast cancer treatment and are located within the city of New York.",
+        "relevant Tools": [
+            "clinical_trial_radar"
+        ],
+        "relevant IDs": [
+            59
+        ]
+    },
+    {
+        "query": "I am applying for a management position at a multinational corporation. Could you help me create a resume that would make me stand out?",
+        "relevant Tools": [
+            "ResumeTool"
+        ],
+        "relevant IDs": [
+            168
+        ]
+    }
+]
